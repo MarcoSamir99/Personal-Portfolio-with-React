@@ -1,0 +1,63 @@
+.project {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex: content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .project h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #3C4048;
+    font-size: 35px;
+  }
+  .project img {
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .project p {
+    font-size: 40px;
+    color: #3C4048;
+    width: 75%;
+    text-align: center;
+
+  }
+  
+  .project svg {
+    font-size: 90px;
+    margin-top: 30px;
+    color: #3C4048;
+  }
+
+  .project svg:hover{
+    filter: drop-shadow(0 0 0.4rem #e9d35b);
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .project img {
+      width: 95%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .project img {
+      width: 95%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .project img {
+      width: 95%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
