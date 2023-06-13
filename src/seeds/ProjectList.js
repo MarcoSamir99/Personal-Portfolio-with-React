@@ -17,6 +17,7 @@ import proj16 from'../assets/16/proj16.png';
 import proj17 from'../assets/17/proj17.jpg';
 import proj18 from'../assets/18/proj18.jpg';
 import proj19 from'../assets/19/proj19.jpg';
+import proj20 from '../assets/20/proj20.png';
 
 export const ProjectList = [
     {   
@@ -170,5 +171,13 @@ export const ProjectList = [
         skills: 'Angular, NodeJs, typeScript and CSS',
         image: proj19 ,
         url: 'https://github.com/MarcoSamir99/Angular-Tour-of-Heroes'
+    },
+    {
+        id:"20",
+        name: "Heores Using Angular Graphql and Nest",
+        description: "this app shows list of heroes and by clicking on anyone of them it redirect us to the detail page for the selected hero , aslo it shows a message for every step we take in the site and we can clear the messages list. also using graphql to send queries and mutations to the database to get data",
+        skills: 'Angular, NodeJS, sequelize, NestJs, Mysql ,TypeScript, HTML and CSS',
+        image: proj20 ,
+        url: 'https://github.com/MarcoSamir99/Heores-Using-Angular-Graphql-and-Nest-'
     },
 ]

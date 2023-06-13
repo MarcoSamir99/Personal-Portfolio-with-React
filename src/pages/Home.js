@@ -28,14 +28,14 @@ function Home() {
         <li className='item'>
           <h2>Front-End</h2>
           <span>
-            ReactJs, Angular, Redux, HTML, CSS, NPM, BootStrap, TailwindCSS, Bulma,
+            ReactJs, Angular, Redux, HTML, CSS, BootStrap, TailwindCSS, Bulma, Angular Material
             Redux & Hooks Toolkit and Redux Toolkit Query 
           </span>
         </li>
         <li className='item'>
           <h2>Back-End</h2>
           <span>
-            NodeJs, ExpressJS, MongoDB, NestJs, Passport, Helmet, MapBox, Axios, JSON server
+            NodeJs, Graphql, sequelize ,ExpressJS, MongoDB, MySql, PostgreSql, Docker , NestJs, Passport, Helmet, MapBox, Axios, JSON server
           </span>
         </li>
         <li className='item'>
